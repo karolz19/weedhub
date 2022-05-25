@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*background-image: url('../img/rgb-rainbow.gif');*/
+    background-color:silver;
+    text-align: center;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+     margin: 20px;
+    }
+
+.header {
+    background-color: green;
+    box-shadow: 5px 5px 5px;
+    
+}
+
+a:link {
+    text-decoration: none;  }
+
+a:any-link {
+    color: white;
+    
+}
