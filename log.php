@@ -58,7 +58,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == "register") {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WeedHub 420</title>
+    <title>𝐿𝑜𝑔𝑜𝓌𝒶𝓃𝒾𝑒</title>
     <link href="../sklep/css/style.css" type="text/css" rel="stylesheet">
 </head>
 
@@ -69,7 +69,13 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == "register") {
         <ul>
             <li><a href="index.php">SKLEP</a></li>
             <li><a href="info.php">INFO</a></li>
-            <li><a href="">KONTAKT</a></li>
+            <li><div class="dropdown">
+        <span>KONTAKT</span>
+            <div class="dropdown-c">
+                <p>ul. Zielarska 69 Trawnik 69-420</p> 
+                <p>TEL: +48 213742069</p>
+                <p>NIP: 1234567890</p> 
+            </div></li>
             <li><a href="basket.php">KOSZYK</a></li>
             <li><a href="log.php">LOGOWANIE</a></li>
         </ul>
@@ -78,7 +84,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == "register") {
 <h2>Zaloguj się</h2>
 <br>
 
-<form action="index.php" method="post">
+<form action="log.php" method="post">
     <label for="emailInput">Email:</label>
     <input type="email" name="email" id="emailInput">
     <label for="passwordInput">Hasło:</label>
@@ -92,7 +98,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == "register") {
 
 <h2>Zarejestruj się</h2>
 <br>
-<form action="index.php" method="post">
+<form action="log.php" method="post">
     <label for="emailInput">Email:</label>
     <input type="email" name="email" id="emailInput">
     <label for="passwordInput">Hasło:</label>
